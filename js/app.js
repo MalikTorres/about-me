@@ -8,6 +8,7 @@ alert(`Welcome ${userName}! Please answer the following questions with yes or no
 // TODO: prompt 5 yes/no or y/n questions for the user to guess and alert when they are correct or incorrect
 
 let questionOneGuess = prompt('Do I have siblings?').toLowerCase();
+
 if (questionOneGuess === 'yes' || questionOneGuess === 'y')  {
   alert('Correct!');
   
@@ -18,6 +19,7 @@ let questionTwoGuess = prompt('Was I born in New York?').toLowerCase();
 
 if(questionTwoGuess === 'yes' || questionTwoGuess ==='yes') {
   alert('Correct!');
+
 } else if(questionTwoGuess === 'no' || questionTwoGuess === 'n') {
   alert('Please try again!');
 }
@@ -39,10 +41,13 @@ if (questionFourGuess === 'yes' || questionFourGuess === 'n') {
 } else if (questionFourGuess === 'no' || questionFourGuess === 'n') {
   alert('Please try again');
 }
+
 let questionFiveGuess = prompt('Have I traveled outside of the United States?').toLowerCase();
-  if (questionFiveGuess === 'yes' || questionFiveGuess === 'y') {
+
+if (questionFiveGuess === 'yes' || questionFiveGuess === 'y') {
   alert('Correct!');
- } else if (questionFiveGuess === 'no' || questionFiveGuess === 'n') {
+ 
+} else if (questionFiveGuess === 'no' || questionFiveGuess === 'n') {
   alert('Please try again!');
  } 
 //TODO: give them a final message with their name in the alert 
