@@ -10,5 +10,5 @@ This is an about me page with information about my professional, educational bac
 
 [w3schools](https://www.w3schools.com/css/css_border.asp)
 
-![LightHouse Score](/Lighthouse-score.png)
-)
+![LightHouse Score](Lighthouse-score.png?raw=true)
+
