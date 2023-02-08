@@ -1,0 +1,19 @@
+h1{
+  font-size:30px;
+  border-radius:25px;  
+  padding: 30px;
+  background-color:aqua;
+  border:2px solid;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  text-shadow: 2px 2px darkkhaki;
+}
+
+body{
+  background-color:lightgoldenrodyellow;
+} 
+
+.intro{
+  padding: 20px; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
