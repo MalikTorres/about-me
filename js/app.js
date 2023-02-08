@@ -15,6 +15,8 @@ if (questionOneGuess === 'yes' || questionOneGuess === 'y')  {
 } else if(questionOneGuess === 'no' || questionOneGuess === 'n') {
   alert('Please try again!');
 } 
+console.log(questionOneGuess);
+
 let questionTwoGuess = prompt('Was I born in New York?').toLowerCase();
 
 if(questionTwoGuess === 'yes' || questionTwoGuess ==='yes') {
@@ -23,7 +25,7 @@ if(questionTwoGuess === 'yes' || questionTwoGuess ==='yes') {
 } else if(questionTwoGuess === 'no' || questionTwoGuess === 'n') {
   alert('Please try again!');
 }
-
+console.log(questionTwoGuess);
 let questionThreeGuess = prompt('Do I like sports').toLowerCase();
 
 if (questionThreeGuess === 'yes' || questionThreeGuess === 'y') {
@@ -33,15 +35,17 @@ if (questionThreeGuess === 'yes' || questionThreeGuess === 'y') {
 } else if (questionThreeGuess === 'no' || questionThreeGuess === 'n') {
   alert('Please try again!');
 }   
+console.log(questionThreeGuess);
 let questionFourGuess = prompt('Do I like Cooking?').toLowerCase();
 
 if (questionFourGuess === 'yes' || questionFourGuess === 'n') {
   alert('Correct!');
-  
+
 } else if (questionFourGuess === 'no' || questionFourGuess === 'n') {
   alert('Please try again');
-}
+} 
 
+console.log(questionFourGuess);
 let questionFiveGuess = prompt('Have I traveled outside of the United States?').toLowerCase();
 
 if (questionFiveGuess === 'yes' || questionFiveGuess === 'y') {
@@ -50,5 +54,6 @@ if (questionFiveGuess === 'yes' || questionFiveGuess === 'y') {
 } else if (questionFiveGuess === 'no' || questionFiveGuess === 'n') {
   alert('Please try again!');
  } 
+ console.log(questionFiveGuess)
 //TODO: give them a final message with their name in the alert 
 alert( `Thanks for playing ${userName}!`);
