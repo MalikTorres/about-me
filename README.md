@@ -2,7 +2,7 @@
 
 ## about-me
 
-This is an about me page with information about my professional, educational background, and goals. 
+This is an about me page with information about my professional, educational background, and goals.
 
 #### Author: Malik Sadiki-Torres
 
@@ -10,4 +10,5 @@ This is an about me page with information about my professional, educational bac
 
 [w3schools](https://www.w3schools.com/css/css_border.asp)
 
-![LightHouse Score](Lighthouse-score.jpg)
+![LightHouse Score](/Lighthouse-score.png)
+)
