@@ -77,22 +77,23 @@ while(guessAttempts)  {
   //QUESTION SIX 
    let userGuess = prompt('How old am I?')
    let numberGuess = Number(userGuess);
-   // converting user guess to a number
+   // reassigining userGuess to a string and storing it in numberGuess variable after calling the Number method
+
    guessAttempts--; 
   
    if(numberGuess > answer) {
+    // checking if numberGuess is greater than global answer variable 
     alert('This value is too high. Please try again');
    
   } else if(numberGuess < answer) {
     alert('This value is too low. Please try again');
   
-  } else {
+  } else if(numberGuess === answer){
     alert('That is correct!')
      guessAttempts = 0; 
+    // false value created to break loop by assigning counter variable to 0; 
      userScore++
-     //Made value false to break loop
-    
-
+     
   }
 
   
