@@ -9,17 +9,25 @@ let userName = prompt('What is your name?');
 alert(`Welcome ${userName}! Please answer the following questions with yes or no`);
 
 // TODO: prompt 5 yes/no or y/n questions for the user to guess and alert when they are correct or incorrect
-let questionOneGuess = prompt('Do I have siblings?').toLowerCase();
+function questionOne(){
 
-if (questionOneGuess === 'yes' || questionOneGuess === 'y')  {
-  alert('Correct!');
-  userScore++
+  
+  let questionOneGuess = prompt('Do I have siblings?').toLowerCase();
+  
+  if (questionOneGuess === 'yes' || questionOneGuess === 'y')  {
+    alert('Correct!');
+    userScore++
+    
+  } else if(questionOneGuess === 'no' || questionOneGuess === 'n') {
+    alert('Incorrect!');
+    // console.log(questionOneGuess);
+  }  
+  
+} 
+questionOne();
 
-} else if(questionOneGuess === 'no' || questionOneGuess === 'n') {
-  alert('Incorrect!');
-  // console.log(questionOneGuess);
-}  
 
+function questionTwo(){
 
 let questionTwoGuess = prompt('Was I born in New York?').toLowerCase();
 
@@ -31,6 +39,10 @@ if(questionTwoGuess === 'yes' || questionTwoGuess ==='yes') {
   alert('Incorrect!');
   //console.log(questionTwoGuess);
 }
+} 
+questionTwo();
+
+function questionThree(){
 
 let questionThreeGuess = prompt('Do I like sports').toLowerCase();
 
@@ -41,7 +53,11 @@ if (questionThreeGuess === 'yes' || questionThreeGuess === 'y') {
 } else if (questionThreeGuess === 'no' || questionThreeGuess === 'n') {
   alert('Incorrect!');
   //console.log(questionThreeGuess);
-}   
+} 
+}
+questionThree();
+
+function questionFour(){
 let questionFourGuess = prompt('Do I like Cooking?').toLowerCase();
 
 if (questionFourGuess === 'yes' || questionFourGuess === 'n') {
@@ -52,7 +68,10 @@ if (questionFourGuess === 'yes' || questionFourGuess === 'n') {
   alert('Incorrect!');
   //console.log(questionFourGuess);
 } 
+}
+questionFour();
 
+function questionFive(){
 let questionFiveGuess = prompt('Have I traveled outside of the United States?').toLowerCase();
 
 if (questionFiveGuess === 'yes' || questionFiveGuess === 'y') {
@@ -63,8 +82,10 @@ if (questionFiveGuess === 'yes' || questionFiveGuess === 'y') {
   alert('Incorrect!');
   // console.log(questionFiveGuess)
 }  
+}
+questionFive();
 
-
+function questionSix(){
 // COUNTER
 let guessAttempts = 4;
 let answer = 24;
@@ -98,7 +119,8 @@ while(guessAttempts)  {
 
   
 }
-
+}
+questionSix();
 
 alert('The correct answer is 24!');
 
@@ -106,7 +128,7 @@ alert('The correct answer is 24!');
 
 
 
-
+function questionSeven(){
 let guessAttemptsToQuestion = 6; 
 
 // Create array of correct answers
@@ -148,7 +170,8 @@ while(guessAttemptsToQuestion)  {
       }
      
   }  
-
+}
+questionSeven();
 
 
 alert( `Thanks for playing ${userName}! you total score is ${userScore}!`); 
