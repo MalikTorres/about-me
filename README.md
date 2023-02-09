@@ -10,4 +10,4 @@ This is an about me page with information about my professional, educational bac
 
 [w3schools](https://www.w3schools.com/css/css_border.asp)
 
-![Lighthouse Score](updated-accessibility.png)
+![Lighthouse Score](lighthouse.png)
