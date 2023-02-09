@@ -2,7 +2,7 @@
 
 ## about-me
 
-This is an about me page with information about my professional, educational background, and goals.
+This is an about me page with information about my professional, educational background, and goals. Additionally, this page also includes a questionair about some of my experiences and background.
 
 #### Author: Malik Sadiki-Torres
 
