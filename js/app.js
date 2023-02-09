@@ -138,7 +138,7 @@ while(guessAttemptsToQuestion)  {
             userScore++
             // Will not restart loop 
           }
-        
+          
        } 
        
          if(guessAttemptsToQuestion > 0) {
@@ -146,7 +146,9 @@ while(guessAttemptsToQuestion)  {
 
            alert('Please try again!');
       }
-
+     
   }  
+
+corectAnswe
 
 alert( `Thanks for playing ${userName}! you total score is ${userScore}!`); 

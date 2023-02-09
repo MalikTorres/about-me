@@ -16,4 +16,32 @@ body{
 .intro{
   padding: 20px; 
   font-family:Verdana, Geneva, Tahoma, sans-serif
+} 
+
+ul {
+  list-style-type:circle;
+  list-style-position: inside;
+ 
+}
+
+h2 {
+ 
+  margin-bottom:10px; 
+
+}
+
+h3{
+  font-size: 20px; 
+  margin-left:30px;
+  margin-top: 270px
+
+}
+
+
+ol {
+  font-size:20px;
+  margin-left:50px; 
+  margin-top: 15px; 
+  padding-bottom: 30px;
+  list-style: numbers;
 }
