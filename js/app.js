@@ -121,13 +121,13 @@ while(guessAttemptsToQuestion)  {
      guessAttemptsToQuestion--;
      // counts down to zero 
    
-
-        for(let i = 0; i < countries.length; i++) {
+      for(let i = 0; i < countries.length; i++) {
         
           if(userGuess === countries[i]) {
             
             alert('You are correct!');
             guessAttemptsToQuestion = 0; 
+            userScore++
             // Will not restart loop 
           }
         
@@ -136,11 +136,8 @@ while(guessAttemptsToQuestion)  {
        if(guessAttemptsToQuestion > 0) {
        
            alert('Please try again!');
-  
-       }
+      }
 
   }  
-
-
 
 alert( `Thanks for playing ${userName}! you total score is ${userScore}!`); 
