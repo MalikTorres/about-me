@@ -149,6 +149,6 @@ while(guessAttemptsToQuestion)  {
      
   }  
 
-corectAnswe
+
 
 alert( `Thanks for playing ${userName}! you total score is ${userScore}!`); 
