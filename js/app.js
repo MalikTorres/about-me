@@ -62,7 +62,7 @@ if (questionFiveGuess === 'yes' || questionFiveGuess === 'y') {
 } else if (questionFiveGuess === 'no' || questionFiveGuess === 'n') {
   alert('Incorrect!');
   // console.log(questionFiveGuess)
- }  
+}  
 
 
 // COUNTER
@@ -108,15 +108,21 @@ alert('The correct answer is 24!');
 
 let guessAttemptsToQuestion = 6; 
 
+// Create array of correct answers
+  // Create counter loop
+    // inner loop to iterate over the array
+      // check if user guess is in the array
+        // otherwise alert to try again
+          
+
 while(guessAttemptsToQuestion)  {
 
     let userGuess = prompt('Which countries did I visit while studying abroad Italy, Spain, Netherlands, Greece, or Portugal?');
     // User answered is stored in userGuess variable 
-
     let countries = ['Italy','Spain','Netherlands']; 
-    // Storing only correct answers only  
+    // Only correct answers stored in the array  
 
-     console.log('test')
+     // console.log('test')
 
      guessAttemptsToQuestion--;
      // counts down to zero 
@@ -126,15 +132,17 @@ while(guessAttemptsToQuestion)  {
           if(userGuess === countries[i]) {
             
             alert('You are correct!');
-            guessAttemptsToQuestion = 0; 
+            guessAttemptsToQuestion = 0;
+            // false value used to break loop 
             userScore++
             // Will not restart loop 
           }
         
        } 
        
-       if(guessAttemptsToQuestion > 0) {
-       
+         if(guessAttemptsToQuestion > 0) {
+          // greater than counter
+
            alert('Please try again!');
       }
 
